@@ -1,0 +1,26 @@
+.discover-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 80px;
+
+    .discover-card_container {
+        margin-top: 60px;
+        line-height: 1.6;
+        .discover-left,
+        .discover-right {
+            flex-basis: 50%;
+        }
+
+        .discover-card{
+            margin: 20px auto;
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .discover-container{
+        flex-wrap: wrap;
+    }
+}
